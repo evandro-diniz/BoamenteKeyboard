@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="52dp"
+    android:inputType="textAutoCorrect">
+
+    <Row>
+        <Key android:keyLabel="1" android:keyEdgeFlags="left" android:codes="49"/>
+        <Key android:keyLabel="2" android:codes="50"/>
+        <Key android:keyLabel="3" android:codes="51"/>
+        <Key android:keyLabel="4" android:codes="52"/>
+        <Key android:keyLabel="5" android:codes="53"/>
+        <Key android:keyLabel="6" android:codes="54"/>
+        <Key android:keyLabel="7" android:codes="55"/>
+        <Key android:keyLabel="8" android:codes="56"/>
+        <Key android:keyLabel="9" android:codes="57"/>
+        <Key android:keyLabel="0" android:keyEdgeFlags="right" android:codes="48"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="q" android:keyEdgeFlags="left" android:codes="113"/>
+        <Key android:keyLabel="w" android:codes="119"/>
+        <Key android:keyLabel="e" android:popupKeyboard="@xml/popup" android:popupCharacters="êéè" android:codes="101"/>
+        <Key android:keyLabel="r" android:codes="114"/>
+        <Key android:keyLabel="t" android:codes="116"/>
+        <Key android:keyLabel="y" android:codes="121"/>
+        <Key android:keyLabel="u" android:popupKeyboard="@xml/popup" android:popupCharacters="úù" android:codes="117"/>
+        <Key android:keyLabel="i" android:popupKeyboard="@xml/popup" android:popupCharacters="íì" android:codes="105"/>
+        <Key android:keyLabel="o" android:popupKeyboard="@xml/popup" android:popupCharacters="õôóò" android:codes="111"/>
+        <Key android:keyLabel="p" android:keyEdgeFlags="right" android:codes="112"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="a" android:popupKeyboard="@xml/popup" android:popupCharacters="ãâáà" android:codes="97"
+            android:horizontalGap="5%p"/>
+        <Key android:keyLabel="s" android:codes="115"/>
+        <Key android:keyLabel="d" android:codes="100"/>
+        <Key android:keyLabel="f" android:codes="102"/>
+        <Key android:keyLabel="g" android:codes="103"/>
+        <Key android:keyLabel="h" android:codes="104"/>
+        <Key android:keyLabel="j" android:codes="106"/>
+        <Key android:keyLabel="k" android:codes="107"/>
+        <Key android:keyLabel="l" android:codes="108"/>
+    </Row>
+
+    <Row>
+        <Key android:keyIcon="@drawable/sym_keyboard_shift" android:keyEdgeFlags="left" android:keyWidth="60dp"
+            android:isSticky="true" android:codes="-1"/>
+        <Key android:keyLabel="z" android:codes="122"/>
+        <Key android:keyLabel="x" android:codes="120"/>
+        <Key android:keyLabel="c" android:popupKeyboard="@xml/popup" android:popupCharacters="ç" android:codes="99"/>
+        <Key android:keyLabel="v" android:codes="118"/>
+        <Key android:keyLabel="b" android:codes="98"/>
+        <Key android:keyLabel="n" android:codes="110"/>
+        <Key android:keyLabel="m" android:codes="109"/>
+        <Key android:keyIcon="@drawable/sym_keyboard_delete" android:keyEdgeFlags="right" android:keyWidth="60dp"
+            android:codes="-5" android:isRepeatable="true"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyIcon="@drawable/sym_keyboard_return" android:keyWidth="20%p" android:keyEdgeFlags="left"
+            android:codes="10"/>
+        <Key android:keyLabel="\?!*" android:keyWidth="10%" android:popupKeyboard="@xml/symbols" />
+        <Key android:keyLabel="," android:keyWidth="10%p" android:codes="44"/>
+        <Key android:keyIcon="@drawable/sym_keyboard_space" android:keyWidth="50%p" android:isRepeatable="true"
+            android:codes="32"/>
+        <Key android:keyLabel="." android:keyWidth="10%p" android:isRepeatable="true" android:codes="46"/>
+        <Key android:keyIcon="@drawable/sym_keyboard_search" android:keyWidth="20%p" android:keyEdgeFlags="right"
+            android:codes="-4"/>
+    </Row>
+
+</Keyboard>

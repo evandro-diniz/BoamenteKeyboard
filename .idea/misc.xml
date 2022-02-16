@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-keyssoft/ic_baseline_airline_seat_flat_24.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.21614583333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_24.xml" value="0.17760416666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/custom_layout.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/item_alerta.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/key_preview.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/keyboard_view.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/networksecurityconfig.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
